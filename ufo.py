@@ -69,6 +69,7 @@ def play(word):
                     print(x[turns])
     if turns >= 6:
         print("You've been abducted, the Earth is lost :(")
+        print("The code word was: ", word)
 
 
 def main():
